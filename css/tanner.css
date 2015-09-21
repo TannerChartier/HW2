@@ -22,6 +22,8 @@ div.Header{
 	margin-top:10px;
 	background-color:LightGray;
     border-bottom: thick solid black;
+	vertical-align:bottom;
+	display:block;
 	}
 img.images2{
 	style="height:450px;vertical-align:middle"";
@@ -63,6 +65,10 @@ div.container{
 	margin: 1% auto;
 	display:block;
 	
+}
+
+div.wrapper{
+;
 }
 
 div.textLeft{
