@@ -1,19 +1,115 @@
 body {
+	background-color:DarkGray;
+}
+
+div.whole {
+	width:80%;
+	margin: 0 auto;
+	background-color:LightGray;
+	display:block;
+	}
+div.wholeA {
+	
+	margin: 0 auto;
+	background-color:LightGray;
+	display:block;
+	}
+
+div.Header{
+	line-height:55%;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	background-color:LightGray;
+    border-bottom: thick solid black;
+	}
+img.images2{
+	style="height:450px;vertical-align:middle"";
+}
+div.Education{
+	margin:10px;
+	}
+	
+	div.Body{
+	margin:10px;
+	}
+
+div.WorkExperience{
+	margin:10px;
+	}
+
+div.Honors{
+	margin:10px;
+
+	}
+
+div.TechnicalSkills{
+	margin:10px;
+	}
+div.links{
+	text-align:center;
+	margin:10px;
+	display:block;
+	}
+
+div.images{
+	margin:10px auto;
+	display:block;
+	text-align:center;
+}
+
+div.container{
+	text-align:center;
+	margin: 1% auto;
+	display:block;
 	
 }
 
-div.whole {width:70%; margin: 0 auto; background-color:red;}
-div.WorkExperience{background-color:yellow;}
-div.Honors{background-color:green;}
-div.TechnicalSkills{background-color:orange;}
+div.textLeft{
+	width:50%;
+	text-align:left;
+	margin:0px;
+	display:block;
+	background-color:LightGray;
+	
+}
 
-p.main {font-size:11pt; }
 
-h1{font-size: 16pt; font-weight:bold; text-align:center; }
+p.main {
+	font-size:12pt;
+	line-height: 65%
+	}
+	
+p.PhotoCaption{
+	text-align:center;
+}
 
-h2{font-size: 14pt; font-weight:bold}
+h1{x-fast
+	font-size:18pt;
+	font-weight:bold;
+	text-align:center;
+	line-height:65%
+	}
 
-h3{font-size:11pt; text-align:center; }
+h2{
+	font-size:16pt;
+	font-weight:bold;
+	line-height:65%;
+	}
 
-.split-para      { font-weight:bold; display:block;margin:10px;}
-.split-para span { font-weight:normal; display:block;float:right;margin-left:10px;}
+h3{
+	font-size:12pt;
+	text-align:center;
+	line-height: 65%}
+
+.split-para{
+	line-height:65%;
+	font-weight:bold;
+	display:block;
+	}
+.split-para span {
+	line-height:65%;
+	font-weight:normal;
+	display:block;
+	float:right;
+	}
